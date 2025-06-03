@@ -35,20 +35,20 @@ label + .radio-wrapper{
         top: .5rem;
         left: .5rem;
 
-        &:hover, &:focus-within {
-            border: 1px solid var(--stroke-highlight);
-
-            & .radio-image {
-                background-image: url('../../assets/icons/circle-on.svg');
-            }
+    }
+    &:hover, &:focus-within {
+        border: 1px solid var(--stroke-highlight);
+    
+        & .radio-image {
+            background-image: url('../../assets/icons/circle-on.svg');
         }
-
-        &:has(:checked){
-            border: 2px solid var(--stroke-highlight);
-
-            & .radio-image{
-                background-image: url('../../assets/icons/checkmark-circle-01.svg');
-            }
+    }
+    
+    &:has(:checked){
+        border: 2px solid var(--stroke-highlight);
+    
+        & .radio-image{
+            background-image: url('../../assets/icons/checkmark-circle-01.svg');
         }
     }
 }
